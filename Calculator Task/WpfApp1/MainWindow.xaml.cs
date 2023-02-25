@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
@@ -250,8 +250,8 @@ namespace WpfApp1
                     {
                         if (!Answer_lbl.Content.ToString().Contains(".") && !number.Contains("."))
                         {
-                            Answer_lbl.Content += ".";
-                            number += ".";
+                            Answer_lbl.Content += ",";
+                            number += ",";
                         }
                         else
                             MessageBox.Show("This number is already float number");
