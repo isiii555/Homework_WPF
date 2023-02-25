@@ -1,0 +1,216 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "Bogus/34.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Bogus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Bogus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Emoji.Wpf/0.3.4": {
+        "type": "package",
+        "dependencies": {
+          "JeremyAnsel.HLSL.Targets": "1.0.13",
+          "Stfu": "0.1.1"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Emoji.Wpf.dll": {},
+          "lib/netcoreapp3.1/Typography.GlyphLayout.dll": {},
+          "lib/netcoreapp3.1/Typography.OpenFont.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Emoji.Wpf.dll": {},
+          "lib/netcoreapp3.1/Typography.GlyphLayout.dll": {},
+          "lib/netcoreapp3.1/Typography.OpenFont.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "JeremyAnsel.HLSL.Targets/1.0.13": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "Stfu/0.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Stfu.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Stfu.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "Bogus/34.0.2": {
+      "sha512": "2KQAuMn3fLAQ2r6jeiffZnpv0bi3GCW3iRB2v1KeHIEBu8MNTh9dBlLTZwGvM0pr+9doKkU8L5JgCURmTmT88A==",
+      "type": "package",
+      "path": "bogus/34.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bogus.34.0.2.nupkg.sha512",
+        "bogus.nuspec",
+        "lib/net40/Bogus.dll",
+        "lib/net40/Bogus.xml",
+        "lib/net6.0/Bogus.dll",
+        "lib/net6.0/Bogus.xml",
+        "lib/netstandard1.3/Bogus.dll",
+        "lib/netstandard1.3/Bogus.xml",
+        "lib/netstandard2.0/Bogus.dll",
+        "lib/netstandard2.0/Bogus.xml"
+      ]
+    },
+    "Emoji.Wpf/0.3.4": {
+      "sha512": "3ouEfw6Mo5Czk0TJd4BWrElB21jK9lKWqB1ZZF1DEBDRLNmOvJJbT51/ELLMIyqyn4p/mh10XC9Kmqmb1IbmnQ==",
+      "type": "package",
+      "path": "emoji.wpf/0.3.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "emoji.wpf.0.3.4.nupkg.sha512",
+        "emoji.wpf.nuspec",
+        "icon.png",
+        "lib/net40/Emoji.Wpf.dll",
+        "lib/net40/Typography.GlyphLayout.dll",
+        "lib/net40/Typography.OpenFont.dll",
+        "lib/netcoreapp3.1/Emoji.Wpf.dll",
+        "lib/netcoreapp3.1/Typography.GlyphLayout.dll",
+        "lib/netcoreapp3.1/Typography.OpenFont.dll"
+      ]
+    },
+    "JeremyAnsel.HLSL.Targets/1.0.13": {
+      "sha512": "uLfE1STTM/o8G2eWEtQWMHm91nO47BIEsjXhO3c6hvsjx+bInTA7LnqI9iAWUWr58Sug+NSoNNZT83i2mWMl7g==",
+      "type": "package",
+      "path": "jeremyansel.hlsl.targets/1.0.13",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "build/JeremyAnsel.HLSL.Targets.targets",
+        "build/JeremyAnsel.HLSL.Targets.xml",
+        "jeremyansel.hlsl.targets.1.0.13.nupkg.sha512",
+        "jeremyansel.hlsl.targets.nuspec",
+        "tools/net472/JeremyAnsel.DirectX.D3DCompiler.dll",
+        "tools/net472/JeremyAnsel.HLSL.Targets.dll",
+        "tools/net472/Microsoft.Build.Framework.dll",
+        "tools/net472/Microsoft.Build.Utilities.Core.dll",
+        "tools/net472/Microsoft.VisualStudio.Setup.Configuration.Interop.dll",
+        "tools/net472/System.Collections.Immutable.dll",
+        "tools/netstandard2.0/JeremyAnsel.DirectX.D3DCompiler.dll",
+        "tools/netstandard2.0/JeremyAnsel.HLSL.Targets.dll",
+        "tools/netstandard2.0/Microsoft.Build.Framework.dll",
+        "tools/netstandard2.0/Microsoft.Build.Utilities.Core.dll",
+        "tools/netstandard2.0/System.Collections.Immutable.dll",
+        "tools/netstandard2.0/System.Runtime.Serialization.Primitives.dll",
+        "tools/netstandard2.0/System.Threading.Thread.dll",
+        "tools/netstandard2.0/System.Threading.dll"
+      ]
+    },
+    "Stfu/0.1.1": {
+      "sha512": "wUd0joqQoZ1B/wULKx1gGTY9zxiDbsW3Y6W0G0guCTL/jRMdDBPr9FMHfkoOKB0JIYGlup3NqXrsqs8fPrCdrw==",
+      "type": "package",
+      "path": "stfu/0.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Stfu.dll",
+        "lib/netcoreapp3.1/Stfu.dll",
+        "stfu.0.1.1.nupkg.sha512",
+        "stfu.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "Bogus >= 34.0.2",
+      "Emoji.Wpf >= 0.3.4"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\user\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\user\\source\\repos\\ConsoleApplication45\\WpfApp2\\WpfApp2\\WpfApp2.csproj",
+      "projectName": "WpfApp2",
+      "projectPath": "C:\\Users\\user\\source\\repos\\ConsoleApplication45\\WpfApp2\\WpfApp2\\WpfApp2.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\source\\repos\\ConsoleApplication45\\WpfApp2\\WpfApp2\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "Bogus": {
+            "target": "Package",
+            "version": "[34.0.2, )"
+          },
+          "Emoji.Wpf": {
+            "target": "Package",
+            "version": "[0.3.4, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
