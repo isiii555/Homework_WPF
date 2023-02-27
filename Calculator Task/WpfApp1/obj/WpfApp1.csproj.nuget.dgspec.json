@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\ConsoleApplication45\\WpfApp1\\WpfApp1\\WpfApp1.csproj": {}
+    "C:\\Users\\user\\OneDrive\\Masaüstü\\Homework_WPF\\Calculator Task\\WpfApp1\\WpfApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\ConsoleApplication45\\WpfApp1\\WpfApp1\\WpfApp1.csproj": {
+    "C:\\Users\\user\\OneDrive\\Masaüstü\\Homework_WPF\\Calculator Task\\WpfApp1\\WpfApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\ConsoleApplication45\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+        "projectUniqueName": "C:\\Users\\user\\OneDrive\\Masaüstü\\Homework_WPF\\Calculator Task\\WpfApp1\\WpfApp1.csproj",
         "projectName": "WpfApp1",
-        "projectPath": "C:\\Users\\user\\source\\repos\\ConsoleApplication45\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+        "projectPath": "C:\\Users\\user\\OneDrive\\Masaüstü\\Homework_WPF\\Calculator Task\\WpfApp1\\WpfApp1.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\ConsoleApplication45\\WpfApp1\\WpfApp1\\obj\\",
+        "outputPath": "C:\\Users\\user\\OneDrive\\Masaüstü\\Homework_WPF\\Calculator Task\\WpfApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

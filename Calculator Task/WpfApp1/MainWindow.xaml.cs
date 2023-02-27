@@ -60,20 +60,30 @@ namespace WpfApp1
                     }
                     else if(b.Content.ToString() == "%")
                     {
-                        if(process.Count == 0)
+                        if (process.Count == 0)
                         {
                             process.Clear();
                             number = string.Empty;
                             Answer_lbl.Content = "0";
                             History_lbl.Content = "0";
                         }
-                        else if(number == string.Empty)
+                        else if (number == string.Empty)
                         {
-                            float temp;
-                            temp = Convert.ToSingle(process[0]) * Convert.ToSingle(process[2]) / 100;
-                            process[2] = temp.ToString();
-                            Answer_lbl.Content = temp.ToString();
-                            History_show();
+                            if (process[1] == "=")
+                            {
+                                process.Clear();
+                                number = string.Empty;
+                                Answer_lbl.Content = "0";
+                                History_lbl.Content = "0";
+                            }
+                            else
+                            {
+                                float temp;
+                                temp = Convert.ToSingle(process[0]) * Convert.ToSingle(process[2]) / 100;
+                                process[2] = temp.ToString();
+                                Answer_lbl.Content = temp.ToString();
+                                History_show();
+                            }
                         }
                         else
                         {
@@ -83,6 +93,7 @@ namespace WpfApp1
                             Answer_lbl.Content = temp.ToString();
                             number = string.Empty;
                             History_show();
+
                         }
                     }
                     else if(b.Content.ToString() == "√")
